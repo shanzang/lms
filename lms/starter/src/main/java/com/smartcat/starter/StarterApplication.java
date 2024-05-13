@@ -15,13 +15,6 @@ public class StarterApplication {
         List<String> list = new ArrayList<>();
         list.add("1");
         list.add("2");
-//        Iterator<String> iterator = list.iterator();
-//        while (iterator.hasNext()) {
-//            String item = iterator.next();
-//            if ("1".equals(item)) {
-//                iterator.remove();
-//            }
-//        }
         for (String item : list) {
             list.remove(item);
         }
