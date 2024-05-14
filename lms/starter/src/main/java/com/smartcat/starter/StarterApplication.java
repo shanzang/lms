@@ -19,7 +19,11 @@ public class StarterApplication {
         for (String item : list) {
             list.remove(item);
         }
-        //hello
+        // hello
+        for (String item : list) {
+            list.remove(item);
+        }
+        
         list.stream().map(item -> {
             System.out.println(item);
             return item;
