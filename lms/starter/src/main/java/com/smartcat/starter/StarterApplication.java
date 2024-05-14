@@ -15,6 +15,7 @@ public class StarterApplication {
         List<String> list = new ArrayList<>();
         list.add("1");
         list.add("2");
+        //注释
         for (String item : list) {
             list.remove(item);
         }
